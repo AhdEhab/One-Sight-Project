@@ -2,9 +2,6 @@ import re
 import emoji
 from pyarabic.araby import strip_tatweel, strip_tashkeel, normalize_ligature, normalize_hamza
 
-import re
-import emoji
-from pyarabic.araby import strip_tatweel, strip_tashkeel, normalize_ligature, normalize_hamza
 
 # ============================================
 # 1. Normalize Arabic Letters
