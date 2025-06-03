@@ -3,13 +3,13 @@ import plotly.graph_objects as go
 import numpy as np
 import json
 
-from model_ml import load_model, predict 
+from sentiment_classifier import load_model, predict 
 from preprocessing import preprocess
 from embedding import embed 
-from Text_Generation import generate_negative_points
-from Text_Generation import generate_positive_points
-from image_model import arabic_text_from_image
-from vid_model import get_transcript
+from insight_generator import generate_negative_points
+from insight_generator import generate_positive_points
+from image_text_extractor import arabic_text_from_image
+from arabic_video_asr import get_transcript
 
 # Streamlit UI setup
 st.set_page_config(page_title="Dashboard", layout="wide")
